@@ -1,0 +1,604 @@
+/*common*/
+
+.wd1200 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wd90 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*custom*/
+
+body{
+    font-family: 'NanumSquare', sans-serif;
+    word-break: keep-all;
+}
+
+body p,
+body h1{
+    transform: skew(0.03deg);
+}
+
+/*header*/
+
+#header{
+    padding: 25px 0;
+}
+
+.header_logo{
+    width: 170px;
+    float: left;
+}
+
+.header_gnb_box{
+    float: right;
+}
+
+.header_gnb{
+    padding: 10px 15px;
+    float: left;
+    cursor: pointer;
+}
+
+.header_gnb_txt{
+    line-height: 23px;
+}
+
+
+/*section*/
+
+#section{
+    margin-top: 30px;
+}
+
+.selected_gnb{
+    border-bottom: 3px solid #ee2b74;
+}
+
+/*snb*/
+
+.section_snb{
+    width: 17%;
+    float: left;
+}
+
+.snb_header{
+    padding: 20px 0;
+    background-color: #ee2b74;
+}
+
+.snb_title{
+    text-align: center;
+    color: white;
+}
+
+.snb_content{
+    margin-top: 10px;
+}
+
+.snb_list_box{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.snb_list{
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.snb_txt{
+    float: left;
+    font-weight: bold;
+}
+
+.snb_more_btn{
+    width: 10px;
+    height: 10px;
+    margin-top: 3px;
+    float: right;
+    background-image: url(../images/snb_more.png);
+    background-size: cover;
+}
+
+.snb_more_wrap{
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.snb_more{
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.snb_more_txt{
+    font-size: 14px;
+}
+
+/*section_content*/
+
+.section_content{
+    width: 80%;
+    float: right;
+}
+
+.program_name{
+    background-color: #78278b;
+}
+
+.program_name_inner{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+    color: white;
+}
+
+.program_teacher_txt{
+    font-size: 14px;
+}
+
+.program_title{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.program_info_inner{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.program_infos{
+    padding: 15px 0;
+    background-color: #ededed;
+}
+
+.program_info{
+    width: 45%;
+    padding: 10px 15px;
+    float: left;
+    background-color: white;
+    box-shadow: 0px 2px 5px #adadad;
+}
+
+.program_info:nth-child(2n){
+    float: right;
+}
+
+.program_info:nth-child(n+3){
+    margin-top: 10px;
+}
+
+.info_logo{
+    width: 40px;
+    margin-top: 8px;
+    float: left;
+}
+
+.info_content{
+    margin-left: 20px;
+    float: left;
+}
+
+.info_txt{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+.program_content{
+    margin-top: 30px;
+}
+
+.curri_header_box{
+    border-bottom: 1px solid #8d8d8d;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.week_count_header{
+    width: 10%;
+    float: left;
+}
+
+.main_education_header{
+    width: 75%;
+    float: left;
+}
+
+.education_date_header{
+    width: 10%;
+    float: right;
+}
+
+.curriculum{
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 0;
+}
+
+.curriculum:last-child{
+    border-bottom: 0;
+}
+
+.week_count{
+    width: 10%;
+    margin-right: 5%;
+    padding: 20px 0;
+    float: left;
+    background-color: #ee2b74;
+}
+
+.week_count_txt{
+    text-align: center;
+    color: white;
+}
+
+.main_education{
+    width: 75%;
+    float: left;
+}
+
+.main_education_txt,
+.education_date_txt{
+    line-height: 56px;
+}
+
+.education_date{
+    width: 10%;
+    float: right;
+}
+
+.education_date_txt{
+    text-align: center;
+}
+
+
+.apply_class_inner{
+    width: 15%;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    float: right;
+    background-color: #ee2b74;
+    cursor: pointer;
+}
+
+.apply_class_txt{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+/*footer*/
+
+#footer{
+    margin-top: 50px;
+    padding: 15px 0;
+    background-color: #484848;
+}
+
+.fnb_box{
+    float: left;
+}
+
+.fnb{
+    float: left;
+}
+
+.fnb_txt{
+    padding: 5px 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.more_company_list{
+    float: right;
+}
+
+#recommend_site{
+    padding: 5px;
+}
+
+.company_info_txt{
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+}
+
+
+@media screen and (max-width:1024px){
+    .header_logo{
+        width: 100px;
+    }
+    
+    .header_gnb{
+        padding: 5px 10px;
+    }
+    
+    .header_gnb_txt{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    
+    .fnb_box{
+        width: 70%;
+        float: left;
+    }
+    
+    .section_snb{
+        width: 20%;
+    }
+    
+    .snb_txt{
+        font-size: 14px;
+    }
+    
+    .section_content{
+        width: 75%;
+    }
+    
+    .program_info_inner{
+        width: 95%;
+    }
+    
+    .program_info{
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px 0;
+        float: none;
+    }
+    
+    .program_info:nth-child(2n){
+        float: none;
+    }
+    
+    .program_info:first-child{
+        margin-top: 0;
+    }
+    
+    .info_logo{
+        margin-left: 20px;
+    }
+    
+    .curri_header_box p{
+        font-size: 16px;
+    }
+    
+    .education_date_txt{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:768px){
+    #header{
+        position: relative;
+    }
+    
+    .mobile_menu_btn{
+        width: 30px;
+        height: 30px;
+        float: left;
+        background-image: url(../images/mobile_menu.png);
+        background-size: cover;
+    }
+    
+    .header_logo{
+        position: absolute;
+        width: 150px;
+        left: 50%;
+        margin-left: -75px;
+    }
+    
+    .header_gnb_box{
+        position: fixed;
+        display: none;
+        top: 0;
+        left: 0;
+        width: 70%;
+        height: 103vh;
+        background-color: white;
+        z-index: 9999;
+        box-shadow: 0px 2px 10px #8d8d8d;
+    }
+    
+    .mobile_exit_btn{
+        width: 20px;
+        height: 20px;
+        margin: 20px 0 20px 20px;
+        background-image: url(../images/mobile_exit.png);
+        background-size: cover;
+    }
+    
+    .header_gnb{
+        overflow: hidden;
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+        padding: 15px 0;
+    }
+    
+    .header_gnb_txt{
+        font-size: 20px;
+        line-height: 1.5;
+        float: left;
+    }
+    
+    .mobile_menu_back{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.2);
+        z-index: 9998;
+    }
+    
+    .mobile_arrow{
+        width: 10px;
+        height: 10px;
+        margin-top: 10px;
+        float: right;
+        background-image: url(../images/mobile_arrow.png);
+        background-size: cover;
+    }
+    
+    .mobile_line{
+        display: block;
+        width: 100%;
+        height: 1px; 
+        background-color: #eaeaea;
+    }
+    
+    #section{
+        margin-top: 0;
+    }
+    
+    .section_wrap {
+        width: 100%;
+    }
+    
+    .section_snb{
+        position: relative;
+        width: 100%;
+        float: none;
+    }
+    
+    .snb_header{
+        position: relative;
+        padding: 10px 0;
+    }
+    
+    .mobile_snb_btn{
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        top: 10.5px;
+        right: 25px;
+        background-image: url(../images/mobile_arrow_2.png);
+        background-size: cover;
+    }
+    
+    .snb_content{
+        position: absolute;
+        display: none;
+        width: 100%;
+        margin-top: 0;
+        background-color: white;
+        z-index: 99;
+        box-shadow: 0px 2px 10px #8d8d8d;
+    }
+    
+    .snb_list_box::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .section_content{
+        width: 100%;
+        float: none;
+    }
+    
+    .curriculum_header{
+        display: none;
+    }
+    
+    .week_count{
+        width: 80%;
+        margin: 0 auto;
+        padding: 8px 0;
+        float: none;
+    }
+    
+    .main_education{
+        width: 100%;
+        float: none;
+    }
+    
+    .main_education_txt{
+        margin-top: 20px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    .education_date{
+        width: 100%;
+        float: none;
+    }
+    
+    .education_date_txt{
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+    
+    .apply_class_inner{
+        width: 70%;
+        border-radius: 15px;
+        margin: 0 auto;
+        margin-top: 50px;
+        padding: 15px;
+        float: none;
+    }
+    
+    .fnb{
+        width: calc(100%/4);
+    }
+    
+    .fnb_box{
+        width: 100%;
+        float: none;
+    }
+    
+    .fnb_txt{
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .more_company_list{
+        width: 180px;
+        margin: 10px auto;
+        float: none;
+    }
+    
+    .company_info_txt{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .lnb_logo{
+        width: 20px;
+    }
+    
+    .lnb_txt{
+        font-size: 10px;
+    }
+    
+    .info_logo{
+        width: 30px;
+        margin-top: 16px;
+    }
+    
+    .fnb{
+        width: calc(100%/2);
+    }
+    
+    .fnb_txt{
+        padding: 10px 0;
+    }
+}
